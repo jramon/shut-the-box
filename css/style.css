@@ -1,0 +1,21 @@
+.tile, .dice {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 25px;
+  text-align: center;
+  margin: 20px;
+}
+
+.chosen {
+  background-color: #CCC;
+}
+
+
+.dice-container {
+  padding-left: 40px;
+}
+
+.dice-container button {
+  display: block;
+  margin-left: 20px;
+}
