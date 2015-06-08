@@ -11,11 +11,15 @@
 }
 
 
-.dice-container {
-  padding-left: 40px;
+.tile-list, .dice-list {
+  padding-left: 0;
 }
 
-.dice-container button {
+button {
   display: block;
   margin-left: 20px;
+}
+
+.dice.disabled, .tile.disabled {
+  background-color: #000;
 }
